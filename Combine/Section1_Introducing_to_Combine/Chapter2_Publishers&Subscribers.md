@@ -82,7 +82,7 @@ Completion event는 normal comletion 이벤트 이거나 error이다.
 
 ## 🐻‍❄️ Understanding what's going on
 
-![/Combine/Chapter2_Publishers&Subscribers/images/Untitled.png](/Combine/Chapter2_Publishers&Subscribers/images/Untitled.png)
+![/Combine/Section1_Introducing_to_Combine/images/Untitled.png](/Combine/Section1_Introducing_to_Combine/images/Untitled.png)
 
 `Publihser` 프로토콜의 가장 중요한 extensions:
 
@@ -198,4 +198,3 @@ NotificationCenter 예제에서 Publisher 는 값을 무기한으로 비동기�
 - `AnyCancellable` 은 호출한 곳에서 내제된 Subscription에 접근하지 않고 subscription을 취소 할 수 있는, `Cancellable`을 채택한 type-eraed 클래스 이다.
 - `eraseToAnyPublisher()` operator는 `AnyPublisher`의 인스턴스를 통해 제공된 Publisher를 감싸서, Publisher가 실제로 `PassthtoughSubject` 인것을 숨긴다.
 
-![/Combine/Chapter2_Publishers&Subscribers/images/Untitled%201.png](/Combine/Chapter2_Publishers&Subscribers/images/Untitled1.png)
