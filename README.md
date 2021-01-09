@@ -16,7 +16,7 @@
 
 ### Section 1 : Introduction to Combine
 #### Chapter 1 : Hello, Combine!
-#### Chapter 2: Publishers & Subscribers
+#### - [Chapter 2: Publishers & Subscribers](https://github.com/HARlBO/Combine/blob/main/Combine/Section1_Introducing_to_Combine/Chapter2_Publishers&Subscribers.md)
 
 <br/>
 
