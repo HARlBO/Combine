@@ -22,6 +22,8 @@
 
 ### Section 2 : Operators
 #### - [Chapter 3 : Transforming Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter3_Transforming_Operators.md)
+#### - [Chapter 4: Filtering Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter4_Filtering_Operators.md)
+
 
 
 <br/><br/><br/>
