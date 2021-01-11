@@ -19,7 +19,7 @@ Publihser는 단일값 또는 value의 collection 을 emit 할 수 있다. 주�
 
 **Marble diagrams**
 
-![Chapter3_Transforming_Operators/Untitled.png](/Combine/Section2_Operators/images/Untitled.png)
+![Chapter3_Transforming_Operators/Untitled.png](/Combine/Section2_Operators/images/Chapter3_Transforming_Operators/Untitled.png)
 
 1. 가장 윗 줄 - upstream publihser
 2. 박스 - operator
@@ -78,7 +78,7 @@ Combine은 값을 수집 하는 것 외에도, 값들을 변형 시킬 수 있�
 
 Swift standard `map` 과 비슷 하지만, publisher에서 emit 된 값들에서만 작동 한다는 점이 다르다.
 
-![Chapter3_Transforming_Operators/Untitled%201.png](/Combine/Section2_Operators/images/Untitled1.png)
+![Chapter3_Transforming_Operators/Untitled%201.png](/Combine/Section2_Operators/images/Chapter3_Transforming_Operators/Chapter3_Transforming_Operators/Untitled1.png)
 
 marble diagram에서 `map` 은 각각의 값에 2를 곱하는 클로저를 갖는다.
 
@@ -210,7 +210,7 @@ Hello, World!
 - `flatMap` 은 수신된 모든 publihser의 output 을 단일 publihser로 flatten 한다.
 - downstrem에서 emit 하는 단일 publihser를 업데이트하기 위해 전송되는 만큼의 많은 publihser 들을 buffer 하여 메모리 문제를 발생 할 수 있다.
 
-![Chapter3_Transforming_Operators/Untitled%202.png](/Combine/Section2_Operators/images/Untitled2.png)
+![Chapter3_Transforming_Operators/Untitled%202.png](/Combine/Section2_Operators/images/Chapter3_Transforming_Operators/Untitled2.png)
 
 1. 다이어그램에서, `flatMap` 은 P1, P2, P3 3 개의 publihser를 받는다.
 2. 각각의 publisher 들은 `value` 프로퍼티를 갖고 이것 역시 publihser이다.
@@ -224,7 +224,7 @@ Combine 에는 항상 값을 전달 받고 싶을 때 쓰는 operator 가 있다
 
 ### `replaceNil(with:)`
 
-![Chapter3_Transforming_Operators/Untitled%203.png](/Combine/Section2_Operators/images/Untitled3.png)
+![Chapter3_Transforming_Operators/Untitled%203.png](/Combine/Section2_Operators/images/Chapter3_Transforming_Operators/Untitled3.png)
 
 - optional 값을 전달 받고 `nil`을 특정 값으로 교체 해준다.
 
@@ -263,7 +263,7 @@ nil 병합 연산자인 `??` 을 사용하는 것과 `replaceNil`  를 사용하
 
 - Publihser 가 값은 emit 하지 않은채로 완료 되었을 때 사용
 
-![Chapter3_Transforming_Operators/Untitled%204.png](/Combine/Section2_Operators/images/Untitled4.png)
+![Chapter3_Transforming_Operators/Untitled%204.png](/Combine/Section2_Operators/images/Chapter3_Transforming_Operators/Untitled4.png)
 
 - Publihser 가 값은 emit 하지 않은채로 완료 되었을 때, `reppaceEmpty(with:)` operator 가 값을 넣어 준 뒤 downstream 에 publish 한다.
 
@@ -320,7 +320,7 @@ Swift standard 에서 볼 수 있는 고차 함수 와 유사한 operator 를 �
 
 - upstream publisher 에서 emit 된 현재 값을 clousre 로 제공하고, 해당 클로저에 의해 리턴 된 마지막 값을 제공한다.
 
-![Chapter3_Transforming_Operators/Untitled%205.png](/Combine/Section2_Operators/images/Untitled5.png)
+![Chapter3_Transforming_Operators/Untitled%205.png](/Combine/Section2_Operators/images/Chapter3_Transforming_Operators/Untitled5.png)
 
 1. `scan` 은 시작 값 0 을 저장 하면서 시작한다.
 2. Publihser로 부터 각각의 값을 전달 받으면, 이전에 저장 해놓은 값에 더해서 저장하고, 결과를 emit 한다.
