@@ -14,7 +14,7 @@
 - greedy → Publisher 가 `.finished` completion 이벤트를 보낼 때까지 대기한다.
 - Publisher 가 종료 되면, operator 에 의해 가장 작은 값만 emit 된다.
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled.png)
 
 <br />
 
@@ -84,7 +84,7 @@ Smallest data is ab, 2 bytes
 
 - Publisher에 의해 emit 된 값 중 가장 큰 값을 찾는다.
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%201.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%201.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%201.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%201.png)
 
 <br />
 
@@ -122,7 +122,7 @@ Z
 - 첫번째 값이 emit 되면 종료 된다.
 - lazy → upstream publisher 가 종료되길 기다리지 않고, 첫번째 값을 emit 한 후에 구독을 취소한다.
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%202.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%202.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%202.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%202.png)
 
 <br />
 
@@ -180,7 +180,7 @@ First match is H
 - Publisher 가 emit 하는 가장 마지막 값
 - greedy → upstream publisher 가 종료되기를 대기
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%203.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%203.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%203.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%203.png)
 
 <br />
 
@@ -215,7 +215,7 @@ Last value is C
 
 - Upstream publisher 로 부터 emit 된 값 중 지정한 index 의 값만 통과
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%204.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%204.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%204.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%204.png)
 
 <br />
 
@@ -248,7 +248,7 @@ publisher: receive cancel
 
 - 제공된 범위 내에 있는 인덱스의 값을 emit
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%205.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%205.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%205.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%205.png)
 
 <br />
 
@@ -284,7 +284,7 @@ finished
 
 - Publisher 가 `.finished` completion 이벤트가 전송하면, Upstream publisher 에서 얼마나 많은 값이 emit 되었는지에 대한 숫자를 emit
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%206.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%206.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%206.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%206.png)
 
 <br />
 
@@ -315,7 +315,7 @@ I have 3 items
 
 - Upstream Publisher 로 부터 지정된 값이 emit 되면 `true` , emit 되지 않으면 `false`
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%207.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%207.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%207.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%207.png)
 
 <br />
 
@@ -411,7 +411,7 @@ Criteria matches!
 - Clouser 조건을 사용하고 모든 값이 조건에 맞는지에 대한 Boolean 을 emit
 - greedy → upstream publisher 가 `.finished` completion 이벤트를 emit 할 때까지 대기
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%208.png](/Combine/Section2_Operators/images/Chapter7-Sequence-Operators/Untitled%208.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%208.png](/Combine/Section2_Operators/images/Chapter7-Sequence-Operators/Untitled%208.png)
 
 <br />
 
@@ -460,7 +460,7 @@ Something is odd...
 
 - Upstream publisher 의 emission 된 값에 기반해서 새로운 값을 축척할수 있다
 
-![Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%209.png](Chapter%207%20Sequence%20Operators%20fa7a8acbad484c76875cf7f1513bad99/Untitled%209.png)
+![/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%209.png](/Combine/Section2_Operators/images/Chapter7_Sequence_Operators/Untitled%209.png)
 
 <br />
 
