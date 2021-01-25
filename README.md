@@ -25,6 +25,8 @@
 #### - [Chapter 4: Filtering Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter4_Filtering_Operators.md)
 #### - [Chapter 5: Combining Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter5_Combining_Operators.md)
 #### - [Chapter 6: Time Manipulation Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter6_Time_Manipulation_Operators.md)
+#### - [Chapter 7: Sequence Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter7_Sequence_Operators.md)
+
 
 
 <br/><br/><br/>
