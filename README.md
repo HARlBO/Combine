@@ -27,12 +27,13 @@
 #### - [Chapter 6: Time Manipulation Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter6_Time_Manipulation_Operators.md)
 #### - [Chapter 7: Sequence Operators](https://github.com/HARlBO/Combine/blob/main/Combine/Section2_Operators/Chapter7_Sequence_Operators.md)
 
+
 <br/>
 
 ### Section 3 : Combine in Action
 #### - [Chapter 9: Networking](https://github.com/HARlBO/Combine/blob/main/Combine/Section3_Combine_in_Action/Chapter9_Networking.md)
 #### - [Chapter 10: Debugging](https://github.com/HARlBO/Combine/blob/main/Combine/Section3_Combine_in_Action/Chapter10_Debugging.md)
-
+#### - [Chapter 11: Timers](https://github.com/HARlBO/Combine/blob/main/Combine/Section3_Combine_in_Action/Chapter11_Timers.md)
 
 
 <br/><br/><br/>
