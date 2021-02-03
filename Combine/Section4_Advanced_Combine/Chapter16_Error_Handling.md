@@ -2,14 +2,14 @@
 
 Publisher 의 `Failure` 의 역할에 대해서 알아보자!
 
-![/Combine/Section4_Advanced_Combine/images/Section4_Advanced_Combine/Untitled.png](/Combine/Section4_Advanced_Combine/images/Section4_Advanced_Combine/Untitled.png)
+![/Combine/Section4_Advanced_Combine/images/Chapter16_Error_Handling/Untitled.png](/Combine/Section4_Advanced_Combine/images/Chapter16_Error_Handling/Untitled.png)
 
 ### 🐻‍❄️ Never
 
 - `Never` 타입의 Failure 는 publisher 가 절대 fail 하지 않는다는걸 나타낸다
 - Publisher 의 값 소비에만 집중 할 수 있게 한다
 
-![/Combine/Section4_Advanced_Combine/images/Section4_Advanced_Combine/Untitled%201.png](/Combine/Section4_Advanced_Combine/images/Section4_Advanced_Combine/Untitled%201.png)
+![/Combine/Section4_Advanced_Combine/images/Chapter16_Error_Handling/Untitled%201.png](/Combine/Section4_Advanced_Combine/images/Chapter16_Error_Handling/Untitled%201.png)
 
 `Just` 의 failure type alias 를 보면
 
