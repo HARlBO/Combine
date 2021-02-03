@@ -35,6 +35,12 @@
 #### - [Chapter 10: Debugging](https://github.com/HARlBO/Combine/blob/main/Combine/Section3_Combine_in_Action/Chapter10_Debugging.md)
 #### - [Chapter 11: Timers](https://github.com/HARlBO/Combine/blob/main/Combine/Section3_Combine_in_Action/Chapter11_Timers.md)
 
+<br/>
+
+### Section 4 : Advanced Combine
+#### - [Chapter 16: Error Handling](https://github.com/HARlBO/Combine/blob/main/Combine/Section4_Advanced_Combine/Chapter16_Error_Handling.md)
+#### - [Chapter 17: Schedulers](https://github.com/HARlBO/Combine/blob/main/Combine/Section4_Advanced_Combine/Chapter17_Schedulers.md)
+
 
 <br/><br/><br/>
 
