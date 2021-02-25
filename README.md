@@ -40,6 +40,8 @@
 ### Section 4 : Advanced Combine
 #### - [Chapter 16: Error Handling](https://github.com/HARlBO/Combine/blob/main/Combine/Section4_Advanced_Combine/Chapter16_Error_Handling.md)
 #### - [Chapter 17: Schedulers](https://github.com/HARlBO/Combine/blob/main/Combine/Section4_Advanced_Combine/Chapter17_Schedulers.md)
+#### - [Chapter 19 : Testing Combine Code](https://github.com/HARlBO/Combine/blob/main/Combine/Section4_Advanced_Combine/Chapter19_Testing_Combine_Code.md)
+
 
 
 <br/><br/><br/>
